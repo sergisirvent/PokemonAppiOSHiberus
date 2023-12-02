@@ -33,8 +33,8 @@
 		F832A5592B1801A00076E97D /* PokedexDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F832A5582B1801A00076E97D /* PokedexDetailViewModel.swift */; };
 		F86348962B1955B800D8DA92 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F86348952B1955B800D8DA92 /* Lottie */; };
 		F86348992B19572800D8DA92 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86348982B19572800D8DA92 /* LottieView.swift */; };
-		F863489C2B19577C00D8DA92 /* lottie_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = F863489B2B19577C00D8DA92 /* lottie_animation.json */; };
 		F863489E2B19589D00D8DA92 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863489D2B19589D00D8DA92 /* SplashScreenView.swift */; };
+		F8C31D8B2B1BADD20053E9D0 /* lottie_animation_splasg.json in Resources */ = {isa = PBXBuildFile; fileRef = F8C31D8A2B1BADD20053E9D0 /* lottie_animation_splasg.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,8 +64,8 @@
 		F832A5562B18018E0076E97D /* PokedexDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexDetailView.swift; sourceTree = "<group>"; };
 		F832A5582B1801A00076E97D /* PokedexDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexDetailViewModel.swift; sourceTree = "<group>"; };
 		F86348982B19572800D8DA92 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		F863489B2B19577C00D8DA92 /* lottie_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lottie_animation.json; path = ../../../lottie_animation.json; sourceTree = "<group>"; };
 		F863489D2B19589D00D8DA92 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		F8C31D8A2B1BADD20053E9D0 /* lottie_animation_splasg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lottie_animation_splasg.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,7 +251,7 @@
 		F863489A2B19575600D8DA92 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				F863489B2B19577C00D8DA92 /* lottie_animation.json */,
+				F8C31D8A2B1BADD20053E9D0 /* lottie_animation_splasg.json */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -338,8 +338,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F863489C2B19577C00D8DA92 /* lottie_animation.json in Resources */,
 				10CB09062B03B34600FB58D8 /* Preview Assets.xcassets in Resources */,
+				F8C31D8B2B1BADD20053E9D0 /* lottie_animation_splasg.json in Resources */,
 				10CB09032B03B34600FB58D8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@ struct SplashScreenView: View {
                 .environmentObject(coordinator)
         }else{
             VStack{
-                LottieView(filename: "lottie_animation", loopMode: .loop)
+                LottieView(filename: "lottie_animation_splasg", loopMode: .loop)
                     .frame(width: 300, height: 300)
             }.onAppear{
                 DispatchQueue.main.asyncAfter(deadline: .now() + 3.0){
